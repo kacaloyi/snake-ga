@@ -11,6 +11,8 @@ The goal of this project is to develop an AI Bot able to learn how to play the p
 We are going to see how a Deep Q-Learning algorithm learns how to play Snake, scoring up to 50 points and showing a solid strategy after only 5 minutes of training. \
 Additionally, it is possible to run the Bayesian Optimization method to find the optimal parameters of the Deep neural network, as well as some parameters of the Deep RL approach.
 
+完整原理说明：https://www.ahjmgzs.com/rjjc/373002.html 
+
 ## Install
 This project requires Python 3.6 with the pygame library installed, as well as Pytorch. If you encounter any error with `torch=1.7.1`, you might need to install Visual C++ 2015-2019 (or simply downgrade your pytorch version, it should be fine). \
 The full list of requirements is in `requirements.txt`. 
